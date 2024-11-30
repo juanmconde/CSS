@@ -1,0 +1,67 @@
+#titulo {
+    color: tomato;
+}
+
+p.especial {
+    color: mediumspringgreen;
+}
+
+p.texto {
+    color: slateblue;
+    font-size: 30px;
+}
+
+div p { /* Selector */
+    color: aquamarine;
+}
+
+div h2, div h3 {  /* Seleccionamos la parte que queremos cambiar el color */
+    color: sienna;
+}
+
+* { /* Lo que hace es aplicar cambios a todo siemper y cuando este no este definido anteriormente */
+    font-size: 24px;
+    color: black;
+}
+
+/* #color cuando llamamos con id="color"
+.color{  el . es para llamar cuando en index esta definidi class="color"
+    color: #09f;   hexagesimal de 3
+} 
+
+.color{
+    color: #ffee00;   Hexagesimal de 6
+}
+
+.color{
+    color: rgb(67, 235, 142);  Convencior rgb
+}
+*/
+
+.color{
+    /* border: 5px darkcyan inset; */
+    /*
+        dotedd
+        dashed
+        solid
+        double
+        groob
+        ridge
+        inset
+        ouset
+        none 
+        hidden
+    */     
+    border-style: double;
+    border-color: cadetblue;
+    border-radius: 3px; /* Radio puntas*/
+    border-width: 2rem; /* em tamaño relativo a lo que seleccionemos es lo que mas se usa */
+
+}
+
+#fondo{
+    background-color: hotpink;
+    height:  400px;
+    background-image: url('pararillo.jpg');
+    background-size: cover;
+}
